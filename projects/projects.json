@@ -12,7 +12,7 @@
   {
     "name": "Movie Search App",
     "desc": "The Move Box App is a frontend-only web application developed using React.js. It allows users to input data and view results immediately.",
-    "image": "React_Movie_App",
+    "image": "react_movie_app",
     "category": "react",
     "links": {
       "view": "https://incredible-clafoutis-782009.netlify.app/",
@@ -22,7 +22,7 @@
   {
     "name": "Expense-Tracker",
     "desc": "Html Basic expense tracker which track expenses by adding amount and category on which you spend.",
-    "image": "expence",
+    "image": "expense",
     "category": "Html",
     "links": {
       "view": "https://sky-02-bit.github.io/Expense-Tracker/",
