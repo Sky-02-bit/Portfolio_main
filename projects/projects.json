@@ -1,0 +1,72 @@
+[
+  {
+    "name": "E-Commerce",
+    "desc": "Full-Stack e-commerce built using MERN stack ",
+    "image": "ecommerce",
+    "category": "mern",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Movie Search App",
+    "desc": "The Move Box App is a frontend-only web application developed using React.js. It allows users to input data and view results immediately.",
+    "image": "React_Movie_App",
+    "category": "react",
+    "links": {
+      "view": "https://incredible-clafoutis-782009.netlify.app/",
+      "code": "https://github.com/Sky-02-bit/Movie-Box"
+    }
+  },
+  {
+    "name": "Expense-Tracker",
+    "desc": "Html Basic expense tracker which track expenses by adding amount and category on which you spend.",
+    "image": "expence",
+    "category": "Html",
+    "links": {
+      "view": "https://sky-02-bit.github.io/Expense-Tracker/",
+      "code": "https://github.com/Sky-02-bit/Expense-Tracker"
+    }
+  },
+  {
+    "name": "Calculator",
+    "desc": "React project built on the React library.",
+    "image": "calculator",
+    "category": "React",
+    "links": {
+      "view": "https://sweet-mousse-305e2c.netlify.app/",
+      "code": "https://github.com/Sky-02-bit/Calculator"
+    }
+  },
+  {
+    "name": "BMI-Calculator",
+    "desc": "BMI-Calculator using React.",
+    "image": "bmi",
+    "category": "React",
+    "links": {
+      "view": "https://unique-basbousa-983a71.netlify.app/",
+      "code": "https://github.com/Sky-02-bit/BMI-Calculator"
+    }
+  },
+  {
+    "name": "Car Rental System",
+    "desc": "Java project built using Java OOPS concept.",
+    "image": "car-rental",
+    "category": "JAVA",
+    "links": {
+      "view": "https://github.com/Sky-02-bit/Car-Rental-System",
+      "code": "https://github.com/Sky-02-bit/Car-Rental-System"
+    }
+  },
+  {
+    "name": "Portfolio",
+    "desc": "A responsive portfolio website built using HTML, CSS, JavaScript, and jQuery. ",
+    "image": "dev",
+    "category": "portfolio",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Sky-02-bit/Portfolio-primary"
+    }
+  }
+]
