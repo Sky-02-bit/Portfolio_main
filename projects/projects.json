@@ -1,7 +1,7 @@
 [
   {
     "name": "E-Commerce",
-    "desc": "Full-Stack e-commerce built using MERN stack ",
+    "desc": "Full-Stack e-commerce built using MERN stack",
     "image": "ecommerce",
     "category": "mern",
     "links": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "Movie Search App",
-    "desc": "The Move Box App is a frontend-only web application developed using React.js. It allows users to input data and view results immediately.",
+    "desc": "Frontend-only web app using React.js",
     "image": "react_movie_app",
     "category": "react",
     "links": {
@@ -21,9 +21,9 @@
   },
   {
     "name": "Expense-Tracker",
-    "desc": "Html Basic expense tracker which track expenses by adding amount and category on which you spend.",
+    "desc": "Basic HTML expense tracker with category filters",
     "image": "expense",
-    "category": "Html",
+    "category": "html",
     "links": {
       "view": "https://sky-02-bit.github.io/Expense-Tracker/",
       "code": "https://github.com/Sky-02-bit/Expense-Tracker"
@@ -31,9 +31,9 @@
   },
   {
     "name": "Calculator",
-    "desc": "React project built on the React library.",
+    "desc": "Calculator app built with React",
     "image": "calculator",
-    "category": "React",
+    "category": "react",
     "links": {
       "view": "https://sweet-mousse-305e2c.netlify.app/",
       "code": "https://github.com/Sky-02-bit/Calculator"
@@ -41,9 +41,9 @@
   },
   {
     "name": "BMI-Calculator",
-    "desc": "BMI-Calculator using React.",
+    "desc": "BMI Calculator built with React",
     "image": "bmi",
-    "category": "React",
+    "category": "react",
     "links": {
       "view": "https://unique-basbousa-983a71.netlify.app/",
       "code": "https://github.com/Sky-02-bit/BMI-Calculator"
@@ -51,9 +51,9 @@
   },
   {
     "name": "Car Rental System",
-    "desc": "Java project built using Java OOPS concept.",
+    "desc": "Java project using OOPS concepts",
     "image": "car-rental",
-    "category": "JAVA",
+    "category": "java",
     "links": {
       "view": "https://github.com/Sky-02-bit/Car-Rental-System",
       "code": "https://github.com/Sky-02-bit/Car-Rental-System"
@@ -61,11 +61,11 @@
   },
   {
     "name": "Portfolio",
-    "desc": "A responsive portfolio website built using HTML, CSS, JavaScript, and jQuery. ",
+    "desc": "Responsive personal portfolio using HTML/CSS/JS",
     "image": "dev",
     "category": "portfolio",
     "links": {
-      "view": "",
+      "view": "https://sage-mousse-1c38bb.netlify.app/",
       "code": "https://github.com/Sky-02-bit/Portfolio-primary"
     }
   }
