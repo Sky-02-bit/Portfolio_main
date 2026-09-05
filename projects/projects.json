@@ -22,7 +22,7 @@
   {
     "name": "Expense-Tracker",
     "desc": "Basic HTML expense tracker with category filters",
-    "image": "expense",
+    "image": "expence",
     "category": "html",
     "links": {
       "view": "https://sky-02-bit.github.io/Expense-Tracker/",
@@ -65,8 +65,18 @@
     "image": "dev",
     "category": "portfolio",
     "links": {
-      "view": "https://sage-mousse-1c38bb.netlify.app/",
+      "view": "https://akashs-portfolio-l8kp.onrender.com/",
       "code": "https://github.com/Sky-02-bit/Portfolio_main"
+    }
+  },
+  {
+    "name": "Flutter Catalog",
+    "desc": "A responsive Flutter catalog app with a clean UI, product listings, and smooth navigation.",
+    "image": "ui",
+    "category": "catalog",
+    "links": {
+      "view": "https://flutter-catalog.onrender.com/login",
+      "code": "https://github.com/Sky-02-bit/IOS-with-flutter"
     }
   }
 ]

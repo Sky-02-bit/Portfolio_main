@@ -40,7 +40,7 @@ function showProjects(projects) {
         const category = project.category.toLowerCase();
         html += `
       <div class="grid-item ${category}">
-        <div class="box tilt" style="width: 380px; margin: 1rem;">
+        <div class="box tilt" style="width: 250px; margin: 1rem;">
           <img src="/assets/images/projects/${project.image}.png" alt="${project.name}" />
           <div class="content">
             <div class="tag">
