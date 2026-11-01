@@ -583,7 +583,7 @@ header .navbar ul li a:hover {
 
 .skills .container {
   background: linear-gradient(0, 0, 22, 0.4);
-  color: #fff;
+  color: #d1d7d5;
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
@@ -608,8 +608,8 @@ header .navbar ul li a:hover {
 }
 
 .skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0 8px 10px rgba(82, 46, 1, 0.8) !important;
+  background-color: #06141b !important;
 }
 
 .skills .container .bar .info {
@@ -722,7 +722,8 @@ header .navbar ul li a:hover {
 
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #253745;
+  /* color: #012970; */
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -823,7 +824,7 @@ header .navbar ul li a:hover {
   position: absolute;
   top: 85%;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: #CCD0CF;
   display: flex;
   flex-direction: column;
 }
@@ -871,13 +872,13 @@ header .navbar ul li a:hover {
   padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
-  color: #fff;
-  background: rgb(12, 12, 12);
+  color: #CCD0CF;
+  background: #06141b;
   margin-right: 2rem;
 }
 
 .work .desc .btns .btn:hover {
-  background: #827d97f5;
+  background: #4a5c6a;
 }
 
 .work .viewall {
@@ -911,7 +912,7 @@ header .navbar ul li a:hover {
 }
 
 .work .viewall .btn:hover {
-  background: #9ba8ab;
+  background: #CCD0CF;
   color: #4a5c6a;
 }
 
@@ -927,7 +928,7 @@ header .navbar ul li a:hover {
 }
 
 .experience .heading {
-  color: #9ba8ab;
+  color: #CCD0CF;
 }
 
 .experience .heading i {
@@ -1050,18 +1051,19 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 
- .morebtn .btn {
+.morebtn .btn {
   position: relative;
-  line-height: 0;
+  z-index: 2;
+  line-height: 1;
   padding: 1.6rem 3rem;
   border-radius: 0.5em;
   transition: 0.5s;
   color: #CCD0CF;
+  background: #0b1b25;
   border: 2px solid #CCD0CF;
-  /* background: #253745; */
-  /* box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6); */
   text-align: center;
 }
+
 
 .morebtn .btn span {
   font-weight: 600;
@@ -1076,7 +1078,7 @@ header .navbar ul li a:hover {
 }
 
 .morebtn .btn:hover {
-  background: #9ba8ab;
+  background: #CCD0CF;
   color: #4a5c6a;
 
 }

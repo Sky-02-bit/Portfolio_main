@@ -16,12 +16,12 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #f7f7f7;
+     background: linear-gradient(to bottom, #CCD0CF, #06141b);
   font-family: 'Poppins', sans-serif;
 }
 
 *::selection{
-  background: #2b3dda;
+  background: #9ba8ab;
   color: #fff;
 }
 
@@ -33,10 +33,10 @@ html::-webkit-scrollbar{
   width: .8rem;
 }
 html::-webkit-scrollbar-track{
-  background: rgb(235, 202, 245);
+  background: rgb(165, 198, 198);
 }
 html::-webkit-scrollbar-thumb{
-  background: #420177;
+  background: #9ba8ab;
 }
 
 /* navbar starts */
@@ -49,8 +49,8 @@ header{
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  background-color: #CCD0CF;
+  box-shadow: 0 1px 4px rgba(124, 136, 147, 0.3);
 }
 section{
   min-height: 100vh;
@@ -58,7 +58,7 @@ section{
 }
 .heading{
   font-size: 3.5rem;
-  color: rgb(20, 20, 20);
+  color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
 }
@@ -75,7 +75,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #4a5c6a;
 }
 header .navbar ul{
   list-style: none;
@@ -95,8 +95,8 @@ header .navbar ul li a{
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #4a5c6a;
+  border-bottom: .2rem solid #4a5c6a;
   padding: .5rem 0;
 }
 /* navbar ends */
@@ -105,7 +105,7 @@ header .navbar ul li a:hover{
 #menu{
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #06141b;
   display: none;
 }
 @media(max-width:768px){
@@ -119,7 +119,7 @@ header .navbar ul li a:hover{
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+     background: #CCD0CF;
   }
   header .navbar ul{
     flex-flow: column;
@@ -136,15 +136,15 @@ header .navbar ul li a:hover{
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: #06141b;
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover{
     padding: 1rem;
-    color: #fff;
+    color: #253745;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #11212d;
   }
   .fa-times{
     transform: rotate(180deg);
@@ -173,7 +173,7 @@ header .navbar ul li a:hover{
   content: '';
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #253745;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -193,8 +193,8 @@ header .navbar ul li a:hover{
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #f68c09;
+  background-color:#CCD0CF;
+  border: 4px solid#4a5c6a;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -219,9 +219,9 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid  #4a5c6a;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #9ba8ab;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -232,15 +232,15 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #4a5c6a;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #9ba8ab transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #9ba8ab;
   position: relative;
   border-radius: 6px;
 }
@@ -272,9 +272,9 @@ header .navbar ul li a:hover{
   padding: 1.6rem 3rem;
   border-radius: .5em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  color: #CCD0CF;
+  background: #0b1b25;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 .morebtn .btn span {
@@ -288,7 +288,7 @@ header .navbar ul li a:hover{
   transition: 0.3s;
 }
 .morebtn .btn:hover{
-  background: #1a047e;
+  background: #4a5c6a;
 }
 .morebtn .btn:hover i {
   transform: translateX(-8px);
@@ -331,7 +331,7 @@ header .navbar ul li a:hover{
 .footer{
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: linear-gradient(to bottom, #1f2e39, #06141b);
 }
 .footer .box-container{
   display: flex;

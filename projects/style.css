@@ -19,13 +19,18 @@ html {
 }
 
 body {
-  background: #f7f7f7;
+  /* background: linear-gradient(to bottom, #CCD0CF, #06141b); */
+  background: #CCD0CF;
+  /* background: #f7f7f7; */
   font-family: 'Poppins', sans-serif;
 }
 
 *::selection {
-  background: #2d0357;
+  /* background: linear-gradient(to bottom, #CCD0CF, #06141b); */
+  /* background: #2d0357; */
+  background: #9ba8ab;
   color: #fff;
+
 }
 
 html {
@@ -38,11 +43,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: rgb(165, 198, 198);
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #410473;
+  background: #9ba8ab;
 }
 
 /* navbar starts */
@@ -57,7 +62,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #CCD0CF;
   box-shadow: 0 1px 4px rgba(146, 161, 176, .3);
 }
 
@@ -74,7 +79,7 @@ section {
 }
 
 .heading span {
-  color: rgb(115, 3, 167);
+  color: rgb(117, 15, 164);
 }
 
 header .logo {
@@ -89,7 +94,7 @@ header .logo i {
 }
 
 header .logo:hover {
-  color: #fc8c05;
+  color: #4a5c6a;
 }
 
 header .navbar ul {
@@ -113,8 +118,8 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #4a5c6a;
+  border-bottom: .2rem solid #4a5c6a;
   padding: .5rem 0;
 }
 
@@ -124,7 +129,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #06141b;
   display: none;
 }
 
@@ -141,7 +146,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background: linear-gradient(to bottom, #bcc0bf, #06141b);
   }
 
   header .navbar ul {
@@ -161,16 +166,16 @@ header .navbar ul li a:hover {
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #fff;
+    color: #06141b;
     font-size: 2rem;
   }
 
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: #fff;
+    color: #253745;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #11212d;
   }
 
   .fa-times {
@@ -187,17 +192,17 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #010136, #00003a);
+  background: linear-gradient(to bottom, #CCD0CF, #06141b);
   margin-top: 5rem;
 }
 
 .work h2 {
-  color: #fff;
+  color: #06141b;
   padding: 1rem;
 }
 
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: #11212d;
 }
 
 .work .button-group {
@@ -245,7 +250,7 @@ header .navbar ul li a:hover {
   position: relative;
   overflow: hidden;
   height: 30rem;
-  background: #fff;
+  background: #4a5c6a;
   border: none;
 }
 
@@ -261,7 +266,8 @@ header .navbar ul li a:hover {
   position: absolute;
   top: 85%;
   left: 0;
-  background: rgba(255, 255, 255, 0.9);
+  /* background: rgba(255, 255, 255, 0.9); */
+  background: #CCD0CF;
   display: flex;
   flex-direction: column;
 }
@@ -274,7 +280,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #9ba8ab;
 }
 
 .work .box-container .box .content .tag h3 {
@@ -298,24 +304,37 @@ header .navbar ul li a:hover {
 
 .work .desc .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
   width: 100%;
   margin-top: 2rem;
 }
 
 .work .desc .btns .btn {
-  line-height: 0;
-  display: inline;
-  padding: 1.5rem 2.5rem;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 9rem;
+  height: 4.8rem;
+  padding: 0;
   border-radius: .5rem;
   font-size: 1.5rem;
-  color: #fff;
-  background: rgb(12, 12, 12);
-  margin-right: 2rem;
+  line-height: 1;
+  color: #CCD0CF;
+  background: #06141b;
+  margin-right: 0;
+  white-space: nowrap;
 }
-
+.work .desc .btns .btn i {
+  font-size: 1.8rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #4a5c6a;
 }
 
 @media screen and (max-width: 450px) {
@@ -346,7 +365,7 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: .5em;
   transition: 0.3s;
-  color: #fff;
+  color: #CCD0CF;
   border: 2px solid #fff;
   box-shadow: 0px 2px 4px rgba(48, 68, 247, .3);
   text-align: center;
@@ -365,7 +384,7 @@ header .navbar ul li a:hover {
 }
 
 .backbtn .btn:hover {
-  background: #ffffff;
+  background: #CCD0CF;
   color: #000;
 }
 
