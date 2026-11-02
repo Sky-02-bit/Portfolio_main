@@ -119,7 +119,7 @@ header .navbar ul li a:hover{
     height: 100%;
     text-align: left;
     align-items: flex-start;
-     background: #CCD0CF;
+     background: linear-gradient(to bottom, #bcc0bf, #11212d);
   }
   header .navbar ul{
     flex-flow: column;
@@ -201,7 +201,7 @@ header .navbar ul li a:hover{
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  color:#02094b;
+  color:#06141b;
   font-family: 'Font Awesome\ 5 Free';
 }
 .experience .left {
